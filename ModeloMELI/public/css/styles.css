@@ -64,19 +64,36 @@ main {
     display: flex;
   }
 
-
+ .barra-busqueda{
+  width: 50%;
+ }
   
+ .barra-busqueda input {
+  width: 100%;
+  border-radius: 11px 0px 0px 11px;
+ }
+ 
+ .barra-busqueda i {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 0px 11px 11px 0px;
+
+ }
   .barra-busqueda input, .barra-busqueda i {
-    font-size: 10px;
+    font-size: 1rem;
+    height: 50px;
+    border: none;
   } 
 
 
   #logo {
-    /*max-width: 400px; /* Tamaño máximo del logo */
-    padding: 10px;
     width: 100%;
   }
-
+ 
+  .encabezado3 a {
+    width: 50%;
+  }
   
 
 .nav{
@@ -112,9 +129,13 @@ main {
     height: 100px;
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
-    font-size: 48px;
+    border-radius: 10px;
+    font-size: 3rem;
     display:flex;
+}
+
+.burger-menu i {
+  font-size: 3rem;
 }
 
 main{
@@ -278,6 +299,10 @@ footer {
   
 }
 
+.footer2 {
+
+}
+
 .contenedor-login {
     display: flex;
     flex-direction: column;
@@ -368,6 +393,15 @@ footer {
         padding: 10px;
         max-width: 50%; 
       }
+      .promo{ 
+        flex-direction: column;
+        width: 30%;
+      }
+
+      .encabezado2{
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
 
     .burger-menu {
         display:none;
@@ -375,6 +409,14 @@ footer {
     .producto {
       flex-basis: calc(50% - 10px); 
   }
+  .encabezado3{
+    width: 60%;
+  }
+
+  .footer2 div { 
+    padding: 10px 30px;
+  }
+
   }
   
   /* Media query para pantallas de escritorio (ancho mínimo 769px) */
@@ -431,7 +473,6 @@ footer {
       flex-wrap: nowrap; 
       justify-content: space-between;
       align-items: center;
-      max-width: 900px; 
     }
   }
 
