@@ -275,14 +275,14 @@ article {
     margin-left: 75%;
     border: 1px solid #39b54a;
     border-radius: 50%;
-    padding: 10px;
     width: 30px;
     height: 30px;
     transition: transform 0.3s ease;
     transform-origin: center;
     top: 10px;
     right: 10px;
-}
+    font-size: 18px;
+  }
 
 .producto:hover .fa-truck {
     transform: rotate(-90deg);
@@ -313,8 +313,7 @@ footer {
   .contenedor-register {
     display: flex;
     flex-direction: column;
-    align-items:start;
-    padding-left: 500px; 
+    align-items: center;
   }
   
   
@@ -466,13 +465,26 @@ footer {
       flex-wrap: nowrap; 
       justify-content: space-between;
       align-items: center;
+      bottom: 0;
     }
   
     .footer2 {
       display: flex;
       flex-wrap: nowrap; 
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: center;
+<<<<<<< Updated upstream
+=======
+    
+    }
+
+    .footer2 div {
+      padding: 0px 30px;
+    }
+
+    .copyright{
+      margin-top: 30px;
+>>>>>>> Stashed changes
     }
   }
 

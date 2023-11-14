@@ -17,10 +17,17 @@ app.get('/register', (req, res) => {
     res.sendFile(__dirname + '/views/register.html');
 })
 
+app.post('/register', (req, res) => {
+    res.sendFile(__dirname + '/views/index.html');
+})
+
 app.get('/login', (req, res) => {
     res.sendFile(__dirname + '/views/login.html');
 })
 
+app.post('/login', (req, res) => {
+    res.sendFile(__dirname + '/views/index.html');
+})
 
 app.listen(puerto, () => {
     console.log('Aplicación escuchando en puerto 3001');
